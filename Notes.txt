@@ -12,60 +12,6 @@ This type of multifactor authentication, combining a photo and head movement, is
 
 The goal is to make it harder for someone to impersonate you by requiring this "liveness" check as part of the login process. Overall, it's a security feature designed to protect your account from unauthorized access.
 
-
-
-
-
-To implement a similar facial recognition and head movement verification process in a React web application, you can use a combination of libraries and technologies. Here's a high-level overview of how you can approach this:
-
-1. **Webcam Access**: Use a library like `react-webcam` to access the user's webcam and display the video stream in your React application.
-
-2. **Facial Recognition**: Leverage a facial recognition library like `face-api.js` to detect and analyze the user's face in the video stream. This will allow you to verify that a face is present and track its movements.
-
-3. **Head Movement Detection**: Analyze the changes in the face's orientation and position to detect and verify head movements. You can use the `face-api.js` library or another computer vision library like `clmtrackr` to track the facial landmarks and monitor the head's position.
-
-4. **Liveness Detection**: Implement a "liveness" check by requiring the user to perform specific head movements (e.g., nod, turn left/right) during the verification process. This ensures that the user is a live person and not just a static image or video.
-
-5. **Verification Process**: Guide the user through the verification process, providing clear instructions and feedback. You can display the webcam feed and overlay visual cues to indicate the required head movements.
-
-6. **Security and Privacy**: Ensure that the user's webcam access and any captured images or video are handled securely and in compliance with relevant data protection regulations. Consider storing only the necessary data for the verification process and deleting it after the session.
-
-Here's a basic example of how you can set up the webcam and facial recognition in a React component:
-
-```jsx
-import React, { useState, useRef } from 'react';
-import Webcam from 'react-webcam';
-import * as faceapi from 'face-api.js';
-
-const FacialVerification = () => {
-  const webcamRef = useRef(null);
-  const [isFaceDetected, setIsFaceDetected] = useState(false);
-
-  const handleFacialDetection = async () => {
-    const webcam = webcamRef.current.video;
-    const detections = await faceapi.detectSingleFace(webcam);
-    setIsFaceDetected(detections !== undefined);
-  };
-
-  return (
-    <div>
-      <Webcam ref={webcamRef} onPlay={handleFacialDetection} />
-      {isFaceDetected ? (
-        <p>A face has been detected. Please perform the required head movements.</p>
-      ) : (
-        <p>Please position your face in front of the camera.</p>
-      )}
-    </div>
-  );
-};
-
-export default FacialVerification;
-```
-
-This is just a starting point, and you'll need to add additional functionality to handle the head movement detection, liveness checks, and the overall verification process. You may also want to consider using a backend server to handle more sensitive aspects of the verification, such as storing and processing the user's data securely.
-
-Okay, for life-threatening situations, you would want to prioritize those complaints even higher than the "high" priority level. Here's an updated approach:
-
 1. **Server-side (Node.js):**
 
 ```javascript
