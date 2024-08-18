@@ -1,0 +1,82 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Use Case Diagram" id="FgglNel2U1L5TTHVHAgJ">
+    <mxGraphModel dx="1173" dy="763" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="b4xgwTWH8p54jYo2uctj-1" value="Constituency Connect System" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="620" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-2" value="Register" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="200" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-3" value="Login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="400" y="100" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-4" value="View Profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="200" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-5" value="Update Profile" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="400" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-6" value="Report Complaint" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="200" y="300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-7" value="Track Complaint" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="400" y="300" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-8" value="Create Survey" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="200" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-9" value="View Survey Results" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="400" y="400" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-10" value="Post Event" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="200" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-11" value="Run Campaign" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="b4xgwTWH8p54jYo2uctj-1">
+          <mxGeometry x="400" y="500" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-22" value="Constituent" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-23" value="Representative" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-24" value="Department" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="500" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-12" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-22" target="b4xgwTWH8p54jYo2uctj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-13" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-22" target="b4xgwTWH8p54jYo2uctj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-14" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-22" target="b4xgwTWH8p54jYo2uctj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-15" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-22" target="b4xgwTWH8p54jYo2uctj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-16" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-22" target="b4xgwTWH8p54jYo2uctj-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-17" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-22" target="b4xgwTWH8p54jYo2uctj-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-18" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-23" target="b4xgwTWH8p54jYo2uctj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-19" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-23" target="b4xgwTWH8p54jYo2uctj-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-20" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-23" target="b4xgwTWH8p54jYo2uctj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b4xgwTWH8p54jYo2uctj-21" edge="1" parent="1" source="b4xgwTWH8p54jYo2uctj-23" target="b4xgwTWH8p54jYo2uctj-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
