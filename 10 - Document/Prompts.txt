@@ -1,0 +1,129 @@
+I have to create an Expanded use Case for each Use Case of  my Project Use Case Diagram 
+
+Expanded Use Case headings will be
+
+Use Case ID:
+Use Case Name:
+Actors
+Description
+Trigger
+Precondition
+Post Condition
+Normal Flow:
+Alternate Flow
+Includes
+Special Requirements
+Assumptions
+Notes and Issues 
+
+
+A brief description of these headings is
+
+Preconditions:
+These should be non-obvious.
+Preconditions state what must ALWAYS be true before you can start the scenario.  This often defines the success of another use case.
+Success guarantees state what must be true on successful completion of the use case.  
+
+
+Normal Flow:
+
+This satisfies the interests of the stakeholders.  You get your groceries, the store gets your money, inventory is reduced, etc.
+Steps:
+An interaction between actors
+Validation (by the system)
+State change to the system
+
+Normal Flow will be the as The User does action and system responds according to it 
+
+Alternative Flow:
+These include all other possible outcomes, both success and failure.
+
+and The most Important Thing 
+
+Write in UI-Free Style
+Most programs are dependent upon a particular user interface.  However, avoid constraining your program too early:
+For example:
+“The user keys an ID and password into a dialog box and presses the OK button.”
+“The user identifies himself to the system.”
+The latter allows for biometric ID, keyin, etc.
+
+Essential Style:
+
+Focus on the essence, or basic idea, not the details of implementation
+Contrast with concrete style
+
+
+
+The Use Case Actors and their Use Cases are
+
+Constituent
+	Report Complaint
+		Include: Forward Complaint
+		Extend: Highlight Urgent Complaint
+	Track Complaint Status
+	Recieve Notification
+	Track Complaint History
+	View Representaive Stats
+		Include: Compute Stats
+	Participate in survey
+		Include: Record Survey Result
+	Attend Virtual Meetups
+		Secondary Actor: Video Conferencing Service
+	Provide Feedback
+	View Awareness campaign
+	View Event Calender
+Representative
+	Create Survey 
+	Compute Survey Result
+	View Survey Result
+	Arrange Virtual Meetups
+		Secondary Actor: Video Conferencing Service
+	Post Event Calender
+	Run Awareness Campaign
+	View Complaints
+	Update Complaint Status
+		include: Update Complaint Status
+Department Complaint Handler
+	View Complaints
+	Update Complaint Status
+		include: Update Complaint Status
+
+
+1).
+Create Expanded Use Case for 
+	Report Complaint
+		Include: Forward Complaint
+		Extend: Highlight Urgent Complaint
+	Track Complaint Status
+	Recieve Notification
+	Track Complaint History
+
+2).
+Create Expanded Use Case for	
+	View Representaive Stats
+		Include: Compute Stats
+	Participate in survey
+		Include: Record Survey Result
+	Attend Virtual Meetups
+		Secondary Actor: Video Conferencing Service
+
+3).
+Create Expanded Use Case for
+	Provide Feedback
+	View Awareness campaign
+	View Event Calender
+
+4).
+Create Expanded Use Case for
+	Create Survey 
+	Compute Survey Result
+	View Survey Result
+	Arrange Virtual Meetups
+		Secondary Actor: Video Conferencing Service
+5).
+Create Expanded Use Case for
+	Post Event Calender
+	Run Awareness Campaign
+	View Complaints
+	Update Complaint Status
+		include: Update Complaint Status
