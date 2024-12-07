@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2024-12-01T07:57:19.291Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="XLhYLVy0Se8xF6hFzMuf" version="24.2.5" type="device">
+  <diagram name="Page-1" id="16ocFveEcNRfVP0NR7eJ">
+    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-1" value="Representative&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=20;fontStyle=1;size=40;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-2" value="&lt;br&gt;&lt;div&gt;Constituency connect&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="380" as="sourcePoint" />
+            <mxPoint x="680" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-6" value="SendInvitations(MeetupId,Constituents)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="230" as="sourcePoint" />
+            <mxPoint x="89.5" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560" y="230" />
+              <mxPoint x="440.5" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="180" as="sourcePoint" />
+            <mxPoint x="680.5" y="180" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560.5" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-8" value="ScheduleMeetup(meetupdetails)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-9" value="Constituent" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=20;fontStyle=1;size=40;" vertex="1" parent="1">
+          <mxGeometry x="70" y="70" width="40" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rS4iowrjuJeLZBqeA-cy-10" value="Connect Participants(meetupid)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="0.1516" relative="1" as="geometry">
+            <mxPoint x="680" y="290" as="sourcePoint" />
+            <mxPoint x="99.5" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="290" />
+              <mxPoint x="450.5" y="290" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

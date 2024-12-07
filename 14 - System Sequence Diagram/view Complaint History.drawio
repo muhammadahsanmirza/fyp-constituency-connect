@@ -1,0 +1,44 @@
+<mxfile host="Electron" modified="2024-12-06T10:54:12.911Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="LX55w1GfgNFGdjKI9fLZ" version="24.2.5" type="device">
+  <diagram name="Page-1" id="FqE_7Vty7sl6PHrnEvmW">
+    <mxGraphModel dx="1050" dy="629" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7hjJDjPjnia9y55CQCC1-1" value="Constituent" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=20;fontStyle=1;size=40;" vertex="1" parent="1">
+          <mxGeometry x="150" y="70" width="40" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjJDjPjnia9y55CQCC1-2" value="&lt;br&gt;&lt;div&gt;Constituency connect&lt;/div&gt;&lt;div&gt;System&lt;/div&gt;" style="html=1;align=center;verticalAlign=middle;dashed=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="590" y="70" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjJDjPjnia9y55CQCC1-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="400" as="sourcePoint" />
+            <mxPoint x="680" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7hjJDjPjnia9y55CQCC1-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="7hjJDjPjnia9y55CQCC1-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="220" as="sourcePoint" />
+            <mxPoint x="680.5" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="560.5" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7hjJDjPjnia9y55CQCC1-5" value="RequestComplaintHistory(UserId)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7hjJDjPjnia9y55CQCC1-6" value="DisplayComplaintHistory(History)" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;fontSize=12;" edge="1" parent="1">
+          <mxGeometry x="-0.001" relative="1" as="geometry">
+            <mxPoint x="675.5" y="320" as="sourcePoint" />
+            <mxPoint x="175" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7hjJDjPjnia9y55CQCC1-7" value="View Complaint History" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="120" width="450" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
