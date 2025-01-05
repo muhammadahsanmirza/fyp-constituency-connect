@@ -477,3 +477,60 @@ For each System events that each actor generates in use case, draw a  message.
 SSD will follow the success scenario steps of each use case 
 
 Create a separate System Sequence Diagram for each use case
+
+
+=======================================================================================================================================================================
+
+
+The Class Diagram I have built for our system is following Classes
+
+User
+	Representative   
+	Constituent   
+	DepartmentComplaintHandler
+Department
+Statistics
+Complaint
+Notification
+Feedback
+Event
+EventCalender
+VirtualMeetup
+Survey
+AwarenessCampaign
+
+and relations are
+Representative, Constituent and Department Complaint Handler inherits from User
+
+DepartmentComplaintHandler belongs to Department(1-1)
+DepartmentComplaintHandler entertains  Complaint(1-*)
+
+Representative entertains Complaint(1-*)
+Representative creates EventCalender(1-1)
+Representative arrange VirtualMeetup(1-*)
+Representative conducts Survey(1-*)
+Representative organize AwarenessCampaign(1-*)
+
+EventCalender have composition Associativity with Event
+
+Constituent files Complaint(1-*)
+Constituent views Statistics(1-*)
+Constituent recieves Notification(1-*)
+Constituent submits Feedback(1-*)
+Constituent access EventCalender (1-1)
+Constituent attends VirtualMeetup(1-*)
+Constituent participates in Survey(1-*)
+Constituent view AwarenessCampaign(1-*)
+
+Complaint triggers Notification(1-*)
+
+
+You have to do two things 
+1)Analyze the class diagram, find flaws and report them and Give the shortcomings of Class Diagram according to our system and Guide me to improve this Diagram
+
+2) Help me to make the Packege Diagram of our system, The Guidelines are 
+To partition the class diagram into packages, place elements together that:
+• Are in the same subject area- closely related by concept or purpose
+• Participate in the same use cases.
+• Are in the type hierarchy together
+• Are strongly associated.

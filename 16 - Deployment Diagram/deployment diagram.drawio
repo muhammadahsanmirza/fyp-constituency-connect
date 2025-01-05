@@ -1,0 +1,49 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
+  <diagram name="Page-1" id="NU7NnTnxZStcRVrK0cdf">
+    <mxGraphModel dx="772" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M7BUtbzTNO2W7AW2ZnJb-15" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;Website&amp;gt;&amp;gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Client Device&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; [Browser,MobileApp]&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="310" y="30" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="M7BUtbzTNO2W7AW2ZnJb-16" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;Website&amp;gt;&amp;gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Notification Service&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="300" y="480" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="M7BUtbzTNO2W7AW2ZnJb-18" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;Website&amp;gt;&amp;gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Database Server&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [MongoDB]&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="510" y="250" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="M7BUtbzTNO2W7AW2ZnJb-19" value="&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;&amp;lt;Website&amp;gt;&amp;gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Web Server&lt;/div&gt;&lt;div&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; [FrontEnd,Backend]&lt;/div&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=0;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="30" y="260" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ItuHmWBft5ohFDTSrLTL-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.944;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.031;entryY=0.093;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M7BUtbzTNO2W7AW2ZnJb-15" target="M7BUtbzTNO2W7AW2ZnJb-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItuHmWBft5ohFDTSrLTL-2" value="https" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-45;" vertex="1" parent="1">
+          <mxGeometry x="220" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ItuHmWBft5ohFDTSrLTL-3" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.417;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=55;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="M7BUtbzTNO2W7AW2ZnJb-19" target="M7BUtbzTNO2W7AW2ZnJb-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="310" as="sourcePoint" />
+            <mxPoint x="420" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItuHmWBft5ohFDTSrLTL-4" value="DatabaseQueries" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ItuHmWBft5ohFDTSrLTL-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=120;exitDy=10;exitPerimeter=0;" edge="1" parent="1" source="M7BUtbzTNO2W7AW2ZnJb-19" target="M7BUtbzTNO2W7AW2ZnJb-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="520" as="sourcePoint" />
+            <mxPoint x="420" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ItuHmWBft5ohFDTSrLTL-6" value="Notification Request" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=40;" vertex="1" parent="1">
+          <mxGeometry x="210" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
